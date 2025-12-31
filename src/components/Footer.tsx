@@ -31,7 +31,7 @@ const Footer = () => {
           </p>
           
           {/* Social Icons */}
-          <div className="flex justify-center gap-4 mb-12">
+          {/* <div className="flex justify-center gap-4 mb-12">
             <a
               href="#"
               className="w-12 h-12 bg-accent/10 flex items-center justify-center hover:bg-accent/20 transition-colors"
@@ -60,8 +60,10 @@ const Footer = () => {
             >
               <Instagram className="w-5 h-5 text-accent" />
             </a>
-          </div>
-          
+          </div> */}
+
+
+          <p className="text-foreground/40 text-sm">التصميم والتنفيذ بواسطة <a href="https://mnfd.ly" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">منفذ – mnfd.ly</a></p>
           {/* Copyright */}
           <div className="pt-8 border-t border-border">
             <p className="text-muted-foreground text-sm">

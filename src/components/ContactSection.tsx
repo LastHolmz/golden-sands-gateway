@@ -50,8 +50,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-foreground mb-2">اتصل بنا</h3>
-                <a href="tel:00218930447739" className="text-muted-foreground hover:text-accent transition-colors" dir="ltr">
-                  00218930447739
+                <a href="tel:00218917730978" className="text-muted-foreground hover:text-accent transition-colors" dir="ltr">
+                  00218917730978
                 </a>
               </div>
             </div>
