@@ -1,6 +1,4 @@
-import Logo from './Logo';
-import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-
+import Logo from "@/assets/logo.png"
 const Footer = () => {
   return (
     <footer className="bg-card border-t border-border relative overflow-hidden">
@@ -11,16 +9,13 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Logo */}
           <div className="flex justify-center mb-8">
-            <Logo size="lg" />
+               <div className="w-64">
+            <img src={Logo} alt="Logo" className="w-full h-full object-contain" />
+          </div>
           </div>
           
           {/* Company Name */}
-          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-2">
-            رمال زلالف الذهبية للخدمات النفطية
-          </h3>
-          <p className="text-muted-foreground mb-8" dir="ltr">
-            Zallaf Golden Sands Company – Oil Services Limited
-          </p>
+          
           
           {/* Divider */}
           <div className="section-divider mb-8" />
@@ -63,12 +58,13 @@ const Footer = () => {
           </div> */}
 
 
-          <p className="text-foreground/40 text-sm">التصميم والتنفيذ بواسطة <a href="https://mnfd.ly" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">منفذ – mnfd.ly</a></p>
           {/* Copyright */}
           <div className="pt-8 border-t border-border">
             <p className="text-muted-foreground text-sm">
               © {new Date().getFullYear()} رمال زلالف الذهبية للخدمات النفطية. جميع الحقوق محفوظة.
             </p>
+          <p className="text-foreground/40 text-sm mt-2">التصميم والتنفيذ بواسطة <a href="https://mnfd.ly" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">منفذ – mnfd.ly</a></p>
+
           </div>
         </div>
       </div>
