@@ -63,7 +63,7 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm">
               © {new Date().getFullYear()} رمال زلالف الذهبية للخدمات النفطية. جميع الحقوق محفوظة.
             </p>
-          <p className="text-foreground/40 text-sm mt-2">التصميم والتنفيذ بواسطة <a href="https://mnfd.ly" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-medium">منفذ – mnfd.ly</a></p>
+          <p className="text-foreground/40 text-sm mt-2">التصميم والتنفيذ بواسطة <a href="https://mnfd.ly" target="_blank" rel="noopener noreferrer" className=" font-bold hover:underline font-medium">منفذ</a></p>
 
           </div>
         </div>
