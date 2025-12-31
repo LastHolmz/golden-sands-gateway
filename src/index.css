@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 @layer base {
   :root {
     /* Industrial Oil & Gas Color Palette */

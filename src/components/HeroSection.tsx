@@ -46,10 +46,10 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="accent" size="lg" className="text-lg px-10 py-6">
-              تواصل معنا
+              <a href='/#contact'>تواصل معنا</a>
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-10 py-6 border-2 border-accent/50 hover:bg-accent/10">
-              خدماتنا
+              <a href='/#services'>خدماتنا</a>
             </Button>
           </div>
         </div>
