@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import Logo from './Logo';
+import Logo from '@/assets/logo.png';
 import { Button } from './ui/button';
 
 const navLinks = [
@@ -31,8 +31,13 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Logo size="sm" />
-          
+          {/* <Logo size="sm" /> */}
+
+          {/* logo image */}
+          <div className="w-64">
+            <img src={Logo} alt="Logo" className="w-full h-full object-contain" />
+          </div>
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
